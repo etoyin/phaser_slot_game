@@ -21,7 +21,7 @@ jobs:
       uses: Samkirkland/FTP-Deploy-Action@4.1.0
       with:
         server: ftp.thekreativestack.com
-        username: ${{ secrets. FTP_USERNAME}}
-        password: ${{ secrets. FTP_PASSWORD }}
+        username: ${{ secrets.FTP_USERNAME}}
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir: /
 
